@@ -1,0 +1,15 @@
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\bin\Debug\net6.0\SimulaTest.exe
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\bin\Debug\net6.0\SimulaTest.deps.json
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\bin\Debug\net6.0\SimulaTest.runtimeconfig.json
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\bin\Debug\net6.0\SimulaTest.dll
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\bin\Debug\net6.0\SimulaTest.pdb
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.csproj.AssemblyReference.cache
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.AssemblyInfoInputs.cache
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.AssemblyInfo.cs
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.csproj.CoreCompileInputs.cache
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.dll
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\refint\SimulaTest.dll
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.pdb
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\SimulaTest.genruntimeconfig.cache
+C:\Users\Tutor\RiderProjects\SimulaTest\SimulaTest\obj\Debug\net6.0\ref\SimulaTest.dll
