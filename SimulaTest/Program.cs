@@ -1,8 +1,8 @@
 ﻿ 
- int lenght;
- string arrowType;
- string fletchingType;
+ using SimulaTest;
+
+ Arrow arrow1 = new Arrow();
  
  
- lenght = Convert.ToInt32(Console.ReadLine());
+arrow1.WriteArrowDescription();
  
