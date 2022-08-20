@@ -1,4 +1,6 @@
 ﻿
+using System.Runtime.CompilerServices;
+
 namespace SimulaTest;
 
 public class Arrow
@@ -6,84 +8,39 @@ public class Arrow
     private int _lenght;
     private ArrowheadType _arrowheadType;
     private Fletching _fletching;
+
+    public int Lenght
+    {
+        get => _lenght;
+        set
+        {
+            if (value >= 60 && value <= 100)
+            {
+                _lenght = value;
+            }
+
+        }
+    }
+
+    public ArrowheadType ArrowheadType
+    {
+        get => _arrowheadType;
+        set => _arrowheadType = value;
+    }
+
+    public Fletching Fletching
+    {
+        get => _fletching;
+        set => _fletching = value;
+    }
+   
     
-
-    private ArrowheadType ArrowheadTypeIs()
-    {
-        string arrowHead;
-        do
-        {
-            Console.WriteLine("What is type an arrowhead? Steel, Wood, Obsidian");
-            arrowHead = Console.ReadLine();
-            if (arrowHead == "steel")
-            {
-                return ArrowheadType.Steal;
-                
-            }
-            else if (arrowHead == "wood")
-            {
-                return ArrowheadType.Wood;
-               
-            }
-            else if (arrowHead == "obsidian")
-            {
-                return ArrowheadType.Obsidian;
-                
-            }
-        } while (true);
-
-        return ArrowheadType.Obsidian;
-    }
-
-    private Fletching FletchingIs()
-    {
-        string fletching;
-        do
-        {
-            Console.WriteLine("What is type of fletching? Plastic, Turkey feathers, Goose feathers");
-            fletching = Console.ReadLine();
-            if (fletching == "plastic")
-            {
-                return SimulaTest.Fletching.Plastic;
-               
-            }
-            else if (fletching == "turkey feathers")
-            {
-                return SimulaTest.Fletching.TurkeyFeathers;
-               
-            }
-            else if (fletching == "goose feathers")
-            {
-                return SimulaTest.Fletching.GooseFeatsers;
-                
-            }
-        } while (true);
-
-        return SimulaTest.Fletching.Plastic;
-    }
-
-    private int Lenght()
-    {
-        int lenght;
-        do
-        {
-            Console.WriteLine("What is lenght of arrow? It must be between 100 and 60 cm");
-            lenght = Convert.ToInt32(Console.ReadLine());
-            if (lenght <= 100 && lenght >= 60)
-            {
-                return lenght;
-            }
-            
-        } while (true);
-
-        return lenght;
-    }
     
-    public Arrow()
+    public Arrow(ArrowheadType arrowheadType, int lenght , Fletching fletching)
     {
-        _arrowheadType = ArrowheadTypeIs();
-        _fletching = FletchingIs();
-        _lenght = Lenght();
+        _arrowheadType = arrowheadType;
+        _lenght = lenght;
+        _fletching = fletching;
     }
 
 // Метод для вывода в консоль всех значений стрелы
@@ -132,14 +89,14 @@ public class Arrow
     
 }
 
-enum ArrowheadType
+public enum ArrowheadType
 {
     Steal,
     Wood,
     Obsidian
 }
 
-enum Fletching
+public enum Fletching
 {
     Plastic,
     TurkeyFeathers,
